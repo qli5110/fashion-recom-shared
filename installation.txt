@@ -1,0 +1,8 @@
+# Create virtual environment 
+conda create recom_final --name python==3.8
+
+# CUDA 11.3
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+
+# other dependencies
+pip install scikit-learn matplotlib pandas
